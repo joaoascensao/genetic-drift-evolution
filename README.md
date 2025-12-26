@@ -22,12 +22,12 @@ Table of experiments--metadata that gives details of each strain.
 ### E1/, E23/, E4/, E5/, E6/
 
 Folders that contain data from each batch of experiments. Data from experiments 2 and 3 are combined in the same folder--E23.
--`{.}_meta.csv`: Metadata for the experiment showing the map between Illumina dual index and sample
--`{.}_exps.csv`: All strains used in the batch of experiments
--`{.}_cfus.csv`: Colony forming unit counts
--`data/MultiCode_tables/`: Output of `MultiCodes.pl`--parsed barcodes from raw .fastq files
--`data/errorcorrectedcodes/`: Output of error correction, merge barcodes into "super-barcodes"
--`data/bc_counts/`: Counts and frequencies of super-barcodes
--`data/kt_errors/`: Variance parameters for outlier detection
--`data/outliers/`: Inferred fitness of super-barcodes for outlier detection
--`data/drift/`: Samples from posteriors of genetic drift parameters
+- `{.}_meta.csv`: Metadata for the experiment showing the map between Illumina dual index and sample
+- `{.}_exps.csv`: All strains used in the batch of experiments
+- `{.}_cfus.csv`: Colony forming unit counts
+- `data/MultiCode_tables/`: Output of `MultiCodes.pl`--parsed barcodes from raw .fastq files
+- `data/errorcorrectedcodes/`: Output of error correction, merge barcodes into "super-barcodes"
+- `data/bc_counts/`: Counts and frequencies of super-barcodes
+- `data/kt_errors/`: Variance parameters for outlier detection
+- `data/outliers/`: Inferred fitness of super-barcodes for outlier detection
+- `data/drift/`: Samples from posteriors of genetic drift parameters
