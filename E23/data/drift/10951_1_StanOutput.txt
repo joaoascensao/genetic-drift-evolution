@@ -1,0 +1,26 @@
+Inference for Stan model: anon_model_28d83b29e75f5ee875a07d74492152e9.
+4 chains, each with iter=1000; warmup=500; thin=1; 
+post-warmup draws per chain=500, total post-warmup draws=2000.
+
+            mean se_mean     sd    2.5%     25%     50%     75%   97.5%  n_eff   Rhat
+c[1]        1.11  2.8e-3    0.1     1.0    1.04    1.08    1.16     1.4   1409    1.0
+c[2]        1.75  5.9e-3   0.21    1.37    1.61    1.74    1.89    2.19   1323    1.0
+c[3]         1.3  5.4e-3    0.2    1.02    1.15    1.28    1.43    1.74   1318    1.0
+c[4]         1.1  2.2e-3    0.1     1.0    1.03    1.07    1.14    1.37   2060    1.0
+c[5]        1.15  2.8e-3   0.13    1.01    1.05    1.12    1.22    1.49   2144    1.0
+Nb[1]      5.0e6   1.4e4  6.0e5   3.9e6   4.6e6   5.0e6   5.4e6   6.3e6   1777    1.0
+Nb[2]      2.2e6   1.6e4  5.1e5   1.3e6   1.9e6   2.2e6   2.6e6   3.2e6    983    1.0
+Nb[3]      4.4e6  9278.2  3.7e5   3.8e6   4.2e6   4.4e6   4.7e6   5.3e6   1614    1.0
+Nb[4]      4.2e6  8105.5  3.6e5   3.6e6   4.0e6   4.2e6   4.5e6   5.0e6   1925    1.0
+sig         1.63  5.3e-3   0.19    1.25     1.5    1.62    1.75    2.02   1306    1.0
+s_av[1]  -2.3e-3  2.9e-5 1.4e-3 -5.2e-3 -3.2e-3 -2.3e-3 -1.3e-3  5.3e-4   2515    1.0
+s_av[2]  -5.8e-3  2.7e-5 1.3e-3 -8.4e-3 -6.7e-3 -5.8e-3 -4.8e-3 -3.0e-3   2552    1.0
+s_av[3]   1.0e-3  1.4e-5 7.5e-4 -4.6e-4  5.5e-4  1.0e-3  1.6e-3  2.6e-3   2906    1.0
+s_av[4]  -1.0e-4  1.5e-5 7.6e-4 -1.6e-3 -6.2e-4 -8.9e-5  4.2e-4  1.4e-3   2559    1.0
+eta_cfus    2.77    0.03   1.06    0.92    1.94    2.74    3.58    4.77    938    1.0
+lp__       1.5e4    0.12   3.04   1.5e4   1.5e4   1.5e4   1.5e4   1.5e4    598    1.0
+
+Samples were drawn using NUTS at Wed Apr  3 03:41:02 2024.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).
