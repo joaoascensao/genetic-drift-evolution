@@ -7,13 +7,13 @@ Data and code for the manuscript, "The evolution of genetic drift over 50,000 ge
 
 This folder contains all of the scripts used to analyze the barcode sequencing data. Use `run_pipeline.sh` to run the entire analysis pipeline--from raw .fastq sequencing files to sampling from posteriors of the genetic drift parameters.
 
--`run_MultiCodes.sh`: run MultiCodes.pl to parse barcodes from raw .fastq sequencing files
--`error_correction.sh`: perform error correction to correct for sequencing errors in barcodes
--`count_bc.sh`: count how many times we see each barcode for each sample
--`kt_errors.sh`: compute variance parameters for outlier detection
--`outliers.sh`: detect outlier barcodes--those with trajectories that deviate significantly from neutrality
--`filter_bcs.sh`: filter out outlier barcodes, merge low-frequency barcodes together
--`HMM_stan.sh`: MCMC inference of genetic drift parameters
+- `run_MultiCodes.sh`: run MultiCodes.pl to parse barcodes from raw .fastq sequencing files
+- `error_correction.sh`: perform error correction to correct for sequencing errors in barcodes
+- `count_bc.sh`: count how many times we see each barcode for each sample
+- `kt_errors.sh`: compute variance parameters for outlier detection
+- `outliers.sh`: detect outlier barcodes--those with trajectories that deviate significantly from neutrality
+- `filter_bcs.sh`: filter out outlier barcodes, merge low-frequency barcodes together
+- `HMM_stan.sh`: MCMC inference of genetic drift parameters
 
 ### experiments.csv
 
