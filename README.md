@@ -1,5 +1,5 @@
 # genetic-drift-evolution
-Data and code for the manuscript, "The evolution of genetic drift over 50,000 generations" by Ascensao et al.
+Data and code for the manuscript, "The evolution of genetic drift over 50,000 generations" by Joao Ascensao, QinQin Yu, and Oskar Hallatschek
 
 # Description of repository
  
